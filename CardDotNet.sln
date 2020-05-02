@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F7D9331-BFA0-4763-AE70-8024276C8AF4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptEngine", "ScriptEngine\ScriptEngine.csproj", "{62EDE4B4-63FD-423B-A454-D22F54E458FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardEngine", "CardEngine\CardEngine.csproj", "{EFA86DCB-B97D-44A7-A8EF-8F8478CFFA20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62EDE4B4-63FD-423B-A454-D22F54E458FC} = {62EDE4B4-63FD-423B-A454-D22F54E458FC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardEngineConsole", "CardEngineConsole\CardEngineConsole.csproj", "{64EBF3AC-1A21-4E2E-AB23-21AB1B3EBE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bam", "Bam\Bam.csproj", "{D35E02A4-4F77-474E-AC89-19A5BA68DD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EDE4B4-63FD-423B-A454-D22F54E458FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EDE4B4-63FD-423B-A454-D22F54E458FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EDE4B4-63FD-423B-A454-D22F54E458FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EDE4B4-63FD-423B-A454-D22F54E458FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA86DCB-B97D-44A7-A8EF-8F8478CFFA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA86DCB-B97D-44A7-A8EF-8F8478CFFA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA86DCB-B97D-44A7-A8EF-8F8478CFFA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA86DCB-B97D-44A7-A8EF-8F8478CFFA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EBF3AC-1A21-4E2E-AB23-21AB1B3EBE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EBF3AC-1A21-4E2E-AB23-21AB1B3EBE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EBF3AC-1A21-4E2E-AB23-21AB1B3EBE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EBF3AC-1A21-4E2E-AB23-21AB1B3EBE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35E02A4-4F77-474E-AC89-19A5BA68DD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35E02A4-4F77-474E-AC89-19A5BA68DD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35E02A4-4F77-474E-AC89-19A5BA68DD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35E02A4-4F77-474E-AC89-19A5BA68DD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6BACFE3-E9D9-49FA-9CA6-7AFCDC8A9BAD}
+	EndGlobalSection
+EndGlobal
